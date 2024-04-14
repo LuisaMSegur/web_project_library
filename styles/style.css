@@ -312,10 +312,10 @@ padding-left: 0;
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
-  margin: 40px;
   flex-basis:220px;
 }
 
@@ -355,12 +355,13 @@ padding-left: 0;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 
 }
 
 .footer__column_content_social {
 padding-left: 80px;
-
+margin-left: 0;
 
 }
 
@@ -376,29 +377,32 @@ margin: 0 auto 20px auto;
 }
 
 .footer__list {
-  list-style-type: none;
-  padding: 0;
-  margin: 16px auto 0 auto;
+list-style-type: none;
+padding: 0;
+margin:0px;
 
 
 }
 
 .footer__list-item {
-margin: 16px auto 0 auto;
+margin: 16px auto auto auto;
 
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
 width: 16px;
 height: 16px;
-margin-right: 10px;
 }
 
 .footer__copyright {
 padding-top: 100px;
+margin-top: auto;
 }
