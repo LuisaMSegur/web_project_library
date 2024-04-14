@@ -355,12 +355,11 @@ padding-left: 0;
 }
 
 .footer__column_content_hours {
-  margin-left: auto;
+  margin: 0 80px 0 auto;
 
 }
 
 .footer__column_content_social {
-padding-left: 80px;
 margin: 0;
 
 }
