@@ -361,7 +361,6 @@ padding-left: 0;
 
 .footer__column_content_social {
 padding-left: 80px;
-margin-left: 0;
 
 }
 
@@ -385,7 +384,7 @@ margin:0px;
 }
 
 .footer__list-item {
-margin: 16px auto auto auto;
+margin: 16px auto;
 
 }
 
@@ -393,7 +392,7 @@ margin: 16px auto auto auto;
   color: white;
   text-decoration: none;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   column-gap: 10px;
 }
 
@@ -404,5 +403,5 @@ height: 16px;
 
 .footer__copyright {
 padding-top: 100px;
-margin-top: auto;
+margin: 0;
 }
