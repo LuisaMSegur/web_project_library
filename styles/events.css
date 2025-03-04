@@ -1,0 +1,224 @@
+.events {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-areas: "content cover";
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.events__content {
+  grid-area: content;
+  padding: 40px 0 40px 40px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__cover {
+  position: relative;
+  grid-area: cover;
+}
+
+.events__image {
+  width: 95%;
+  padding: 60px 0;
+}
+
+.person {
+  position: absolute;
+}
+
+.person_name_feynman {
+  top: 30px;
+  right: 190px;
+}
+
+.person_name_burbidge {
+  top: 200px;
+  right: 30px;
+}
+
+.person_name_cannon {
+  bottom: 120px;
+  right: 80px;
+}
+
+.person_name_mitchell {
+  bottom: 115px;
+  left: 160px;
+}
+
+.person_name_tarter {
+  top: 140px;
+  left: 90px;
+}
+
+.person__image {
+  max-width: 100%;
+}
+
+.person__image_size_l {
+  width: 48%;
+}
+
+.person__image_size_m {
+  width: 45%;
+}
+
+.person__image_size_s {
+  width: 30%;
+}
+
+.person__caption {
+  text-align: justify;
+  font-size: 14px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1050px) {
+  .events {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "content cover";
+  }
+  .person_name_mitchell {
+    bottom: 230px;
+  }
+  .person_name_cannon {
+    bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 1049px) and (min-width: 800px) {
+  .events {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 1fr;
+    grid-template-areas:
+      "content"
+      "cover";
+  }
+  .events__content {
+    padding: 30px;
+  }
+  .person_name_feynman {
+    right: 270px;
+  }
+  .person_name_tarter {
+    top: 200px;
+  }
+}
+@media screen and (max-width: 1049px) and (min-width: 800px) {
+  .events {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 1fr;
+    grid-template-areas:
+      "content"
+      "cover";
+  }
+  .events__content {
+    padding: 30px;
+  }
+  .person_name_feynman {
+    right: 270px;
+  }
+  .person_name_tarter {
+    top: 200px;
+  }
+}
+@media screen and (max-width: 799px) and (min-width: 320px) {
+  .events {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "content";
+  }
+  .events__content {
+    padding: 20px;
+  }
+  .events__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .events__description {
+    margin: 20px 0 40px;
+  }
+  .events__heading {
+    font-size: 18px;
+  }
+  .events__image {
+    display: none;
+  }
+  .person_name_feynman {
+    display: none;
+  }
+
+  .person_name_burbidge {
+    display: none;
+  }
+
+  .person_name_cannon {
+    display: none;
+  }
+
+  .person_name_mitchell {
+    display: none;
+  }
+
+  .person_name_tarter {
+    display: none;
+  }
+  .events__more {
+    font-size: 16px;
+    z-index: 3;
+    position: relative;
+  }
+}
