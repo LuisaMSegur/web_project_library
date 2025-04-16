@@ -13,7 +13,7 @@ export default function Header() {
           estudiantes!
         </p>
         <img
-          src="/images/inside_library.png"
+          src="/images/inside_the_library.png"
           alt="Ilustración 'Dentro de la biblioteca'"
           className="header__image"
         />
