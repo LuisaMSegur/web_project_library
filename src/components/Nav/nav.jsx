@@ -2,7 +2,7 @@ export default function Nav() {
   return (
     <nav className="nav">
       <img
-        src="./images/logo.svg"
+        src="/images/logo.svg"
         alt="Logotipo de la Biblioteca Triple Peaks"
         className="nav__logo"
       />

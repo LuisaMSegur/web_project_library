@@ -85,7 +85,7 @@ export default function Main() {
           <div className="event-info events__info-section">
             <div className="event-info__item">
               <img
-                src="./images/icon_calendar.svg"
+                src="/images/icon_calendar.svg"
                 alt="Calendar icon"
                 className="event-info__icon"
               />
@@ -111,14 +111,14 @@ export default function Main() {
             nuestra conferencia busca cambiar esa noción y probar que no ha sido
             así desde, al menos, el siglo XVII.
           </p>
-          <a href="#" class="events__more">
+          <a href="#" className="events__more">
             Más eventos &rarr;
           </a>
         </div>
 
         <div className="events__cover">
           <img
-            src="./images/cafe.png"
+            src="/images/cafe.png"
             alt="ilustración de un cafe"
             className="events__image"
           />
@@ -126,16 +126,16 @@ export default function Main() {
           <div className="person person_name_feynman">
             <p className="person__caption">Joan Feynman</p>
             <img
-              src="./images/person_feynman.png"
+              src="/images/person_feynman.png"
               alt="imagen de Joan Feynman"
-              class="person__image person__image_size_l"
+              className="person__image person__image_size_l"
             />
           </div>
 
           <div className="person person_name_burbidge">
             <p className="person__caption">Margaret Burbidge</p>
             <img
-              src="./images/person_burbidge.png"
+              src="/images/person_burbidge.png"
               alt="imagen de Margaret Burbidge"
               className="person__image person__image_size_m"
             />
@@ -143,7 +143,7 @@ export default function Main() {
 
           <div className="person person_name_cannon">
             <img
-              src="./images/person_cannon.png"
+              src="/images/person_cannon.png"
               alt="imagen de Annie Cannon"
               className="person__image person__image_size_m"
             />
@@ -152,7 +152,7 @@ export default function Main() {
 
           <div className="person person_name_mitchell">
             <img
-              src="./images/person_mitchell.png"
+              src="/images/person_mitchell.png"
               alt="imagen de Maria Mitchell"
               className="person__image person__image_size_s"
             />
@@ -162,7 +162,7 @@ export default function Main() {
           <div className="person person_name_tarter">
             <p className="person__caption">Jill Tarter</p>
             <img
-              src="./images/person_tarter.png"
+              src="/images/person_tarter.png"
               alt="imagen de Jill Tarter"
               className="person__image person__image_size_m"
             />
@@ -179,7 +179,7 @@ export default function Main() {
             <h3 className="step__title">
               Paso 1
               <img
-                src="./images/icon_step_forward.svg"
+                src="/images/icon_step_forward.svg"
                 alt="icon forward"
                 className="step__icon"
               />
@@ -193,7 +193,7 @@ export default function Main() {
             <h3 className="step__title">
               Paso 2
               <img
-                src="./images/icon_step_forward.svg"
+                src="/images/icon_step_forward.svg"
                 alt="icon forward"
                 className="step__icon"
               />
@@ -207,7 +207,7 @@ export default function Main() {
             <h3 className="step__title">
               Paso 3
               <img
-                src="./images/icon_step_forward.svg"
+                src="/images/icon_step_forward.svg"
                 alt="icon forward"
                 className="step__icon"
               />
@@ -219,7 +219,7 @@ export default function Main() {
             <h3 className="step__title">
               Paso 4
               <img
-                src="./images/icon_step_finish.svg"
+                src="/images/icon_step_finish.svg"
                 alt="icon finish"
                 className="step__icon"
               />
