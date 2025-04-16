@@ -1,3 +1,4 @@
+import imageBiblioteca from "../../images/inside_the_library.png"
 export default function Header() {
   return (
     <header className="header">
@@ -13,7 +14,7 @@ export default function Header() {
           estudiantes!
         </p>
         <img
-          src="/images/inside_the_library.png"
+          src={imageBiblioteca}
           alt="Ilustración 'Dentro de la biblioteca'"
           className="header__image"
         />

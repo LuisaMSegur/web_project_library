@@ -1,3 +1,14 @@
+import imageCalendar from "../../images/icon_calendar.svg";
+import imageIcon from "../../images/icon_pin.svg";
+import imageCafe from "../../images/cafe.png";
+import imageFeyman from "../../images/person_feynman.png"
+import burbidge from "../../images/person_burbidge.png";
+import cannon from "../../images/person_cannon.png";
+import mitchell from "../../images/person_mitchell.png";
+import tarter from "../../images/person_tarter.png";
+import step from "../../images/icon_step_forward.svg";
+import stepFinish from "../../images/icon_step_finish.svg";
+
 export default function Main() {
   return (
     <main className="content">
@@ -85,7 +96,7 @@ export default function Main() {
           <div className="event-info events__info-section">
             <div className="event-info__item">
               <img
-                src="/images/icon_calendar.svg"
+                src={imageCalendar}
                 alt="Calendar icon"
                 className="event-info__icon"
               />
@@ -93,7 +104,7 @@ export default function Main() {
             </div>
             <div className="event-info__item">
               <img
-                src="./images/icon_pin.svg"
+                src={imageIcon}
                 alt="Pin icon"
                 className="event-info__icon"
               />
@@ -118,7 +129,7 @@ export default function Main() {
 
         <div className="events__cover">
           <img
-            src="/images/cafe.png"
+            src={imageCafe}
             alt="ilustración de un cafe"
             className="events__image"
           />
@@ -126,7 +137,7 @@ export default function Main() {
           <div className="person person_name_feynman">
             <p className="person__caption">Joan Feynman</p>
             <img
-              src="/images/person_feynman.png"
+              src={imageFeyman}
               alt="imagen de Joan Feynman"
               className="person__image person__image_size_l"
             />
@@ -135,7 +146,7 @@ export default function Main() {
           <div className="person person_name_burbidge">
             <p className="person__caption">Margaret Burbidge</p>
             <img
-              src="/images/person_burbidge.png"
+              src={burbidge}
               alt="imagen de Margaret Burbidge"
               className="person__image person__image_size_m"
             />
@@ -143,7 +154,7 @@ export default function Main() {
 
           <div className="person person_name_cannon">
             <img
-              src="/images/person_cannon.png"
+              src={cannon}
               alt="imagen de Annie Cannon"
               className="person__image person__image_size_m"
             />
@@ -152,7 +163,7 @@ export default function Main() {
 
           <div className="person person_name_mitchell">
             <img
-              src="/images/person_mitchell.png"
+              src={mitchell}
               alt="imagen de Maria Mitchell"
               className="person__image person__image_size_s"
             />
@@ -162,7 +173,7 @@ export default function Main() {
           <div className="person person_name_tarter">
             <p className="person__caption">Jill Tarter</p>
             <img
-              src="/images/person_tarter.png"
+              src={tarter}
               alt="imagen de Jill Tarter"
               className="person__image person__image_size_m"
             />
@@ -179,7 +190,7 @@ export default function Main() {
             <h3 className="step__title">
               Paso 1
               <img
-                src="/images/icon_step_forward.svg"
+                src={step}
                 alt="icon forward"
                 className="step__icon"
               />
@@ -193,7 +204,7 @@ export default function Main() {
             <h3 className="step__title">
               Paso 2
               <img
-                src="/images/icon_step_forward.svg"
+                src={step}
                 alt="icon forward"
                 className="step__icon"
               />
@@ -207,7 +218,7 @@ export default function Main() {
             <h3 className="step__title">
               Paso 3
               <img
-                src="/images/icon_step_forward.svg"
+                src={step}
                 alt="icon forward"
                 className="step__icon"
               />
@@ -219,7 +230,7 @@ export default function Main() {
             <h3 className="step__title">
               Paso 4
               <img
-                src="/images/icon_step_finish.svg"
+                src={stepFinish}
                 alt="icon finish"
                 className="step__icon"
               />

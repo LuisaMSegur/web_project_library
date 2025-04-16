@@ -1,10 +1,13 @@
+import logoWhite from "../../images/logo_white.svg";
+import facebook from "../../images/facebook_white.svg";
+import instagram from "../../images/instagram_white.svg";
 export default function Footer() {
   return (
     <footer className="footer" id="footer">
       <div className="footer__columns">
         <div className="footer__column">
           <img
-            src="/images/logo_white.svg"
+            src={logoWhite}
             alt="logo tripleten"
             className="footer__logo"
           />
@@ -28,7 +31,7 @@ export default function Footer() {
             <li className="footer__list-item">
               <a href="#" className="footer__column-link">
                 <img
-                  src="/images/facebook_white.svg"
+                  src={facebook}
                   alt="logo de facebook"
                   className="footer__social-icon"
                 />
@@ -38,7 +41,7 @@ export default function Footer() {
             <li className="footer__list-item" id="instagram">
               <a href="#" className="footer__column-link">
                 <img
-                  src="/images/instagram_white.svg"
+                  src={instagram}
                   alt="logo de instagram"
                   className="footer__social-icon"
                 />
