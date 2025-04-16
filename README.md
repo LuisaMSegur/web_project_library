@@ -2,7 +2,7 @@
 
 Este es uno de mis primeros proyectos en TripleTen. Es una biblioteca virtual, tiene varias seciones como staff de recomendaciones, eventos, inscripcion a membresia, etc. En un principio solo apliqué mis conocimientos sobre estructura, estilos y diseño responsivo utilizando Flexbox, Grid y media queries. Ahora, se mejoró con React y Vite.
 
-![alt text](<public/images/Captura de pantalla 2025-04-16 132046.png>)
+![alt text](<src/images/Captura de pantalla 2025-04-16 132046.png>)
 
 ## Características
 
@@ -20,9 +20,9 @@ _React:_ Refactorización a componentes.
 
 _Vite:_ Para compilacióon.
 
-![alt text](<public/images/Captura de pantalla 2025-04-16 132102.png>)
+![alt text](<src/images/Captura de pantalla 2025-04-16 132102.png>)
 
-![alt text](<public/images/Captura de pantalla 2025-04-16 132128.png>)
+![alt text](<src/images/Captura de pantalla 2025-04-16 132128.png>)
 
 ## Tecnologías Utilizadas
 
