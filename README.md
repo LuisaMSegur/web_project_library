@@ -1,6 +1,8 @@
 # Web Project Library
 
-Este es uno de mis primeros proyectos creado con HTML y CSS, en el que apliqué mis conocimientos sobre estructura, estilos y diseño responsivo utilizando Flexbox, Grid y media queries.
+Este es uno de mis primeros proyectos en TripleTen. Es una biblioteca virtual, tiene varias seciones como staff de recomendaciones, eventos, inscripcion a membresia, etc. En un principio solo apliqué mis conocimientos sobre estructura, estilos y diseño responsivo utilizando Flexbox, Grid y media queries. Ahora, se mejoró con React y Vite.
+
+![alt text](<public/images/Captura de pantalla 2025-04-16 132046.png>)
 
 ## Características
 
@@ -14,6 +16,14 @@ _Flexbox y Grid:_ Implementación de estas técnicas para el diseño y distribuc
 
 _Media Queries:_ Ajustes para mejorar la visualización en distintos dispositivos.
 
+_React:_ Refactorización a componentes.
+
+_Vite:_ Para compilacióon.
+
+![alt text](<public/images/Captura de pantalla 2025-04-16 132102.png>)
+
+![alt text](<public/images/Captura de pantalla 2025-04-16 132128.png>)
+
 ## Tecnologías Utilizadas
 
 HTML5
@@ -24,20 +34,24 @@ Flexbox y Grid
 
 Media Queries
 
-![alt text](images/header.png)
+React
 
-![alt text](images/pagina.png)
+Vite
 
-![alt text](images/responsivo.png)
-
-![alt text](images/cartas.png)
-
-## Cómo Ver el Proyecto
+## Cómo Descargar el Proyeto
 
 _Clonar el repositorio:_
 
 git clone git@github.com:LuisaMSegur/web_project_library.git
 
-_Abrir el archivo index.html en el navegador._
+_Ir a la carpeta:_
 
-_también puedes abrir enlace:_ https://luisamsegur.github.io/web_project_library/
+cd nombre-carpeta-del-proyecyo
+
+_Instalar dependencias:_
+
+npm install
+
+
+### Link para ver en el navegador:
+https://luisamsegur.github.io/web_project_library/
